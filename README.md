@@ -80,4 +80,3 @@ Powered by:
 - FAISS (Meta AI)
 - Sentence-Transformers
 - Streamlit
-EOF
