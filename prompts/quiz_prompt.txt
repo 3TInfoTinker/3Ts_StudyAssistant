@@ -1,0 +1,20 @@
+Create {num_questions} multiple-choice questions about: {topic}
+
+TEXTBOOK CONTENT:
+{context}
+
+FORMATTING RULES:
+- Use PLAIN TEXT ONLY - no markdown symbols (**, *, _, `, #)
+- Format questions simply like this:
+
+Question 1: [question text]
+A) [option]
+B) [option]
+C) [option]
+D) [option]
+Correct Answer: [letter]
+Explanation: [brief explanation]
+
+[blank line between questions]
+
+Generate only questions based on the textbook content above.

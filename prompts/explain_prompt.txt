@@ -1,0 +1,10 @@
+Explain "{concept}" in simple, easy-to-understand language based on this textbook:
+
+{context}
+
+FORMATTING RULES:
+- Use PLAIN TEXT ONLY - no markdown formatting
+- NO bold, italics, bullets, or special characters
+- Write naturally like a teacher speaking
+- Use analogies and examples to make it clear
+- Separate ideas with blank lines between paragraphs.

@@ -1,0 +1,39 @@
+# Create .gitignore to exclude unnecessary files
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.adk-env/
+venv/
+env/
+
+# Data directories (don't commit user data)
+books/*
+uploads/*
+index/*
+chat_history/*
+images/*.gif
+images/*.png
+images/*.jpg
+
+# Keep directory structure but not contents
+!books/.gitkeep
+!uploads/.gitkeep
+!index/.gitkeep
+!chat_history/.gitkeep
+!images/.gitkeep
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
