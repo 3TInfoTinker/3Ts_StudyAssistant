@@ -24,8 +24,8 @@ AI-powered study assistant that helps students learn from their textbooks using 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/3TInfoTinker/3Ts-Tutor.git
-cd 3Ts-Tutor
+git clone https://github.com/3TInfoTinker/3Ts_StudyAssistant
+cd 3Ts_StudyAssistant
 ```
 
 2. Install dependencies:
