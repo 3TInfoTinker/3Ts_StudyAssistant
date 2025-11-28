@@ -11,6 +11,7 @@ AI-powered study assistant that helps students learn from their textbooks using 
 - 💡 Explain concepts simply
 - 💾 Persistent chat history
 - 🎨 Dark mode UI
+- video demo: https://youtu.be/QCcdvMNnWBc?si=t3Dl3utKpbOxpYKv
 
 ## 🛠️ Tech Stack
 
