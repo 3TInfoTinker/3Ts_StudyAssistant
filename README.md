@@ -69,7 +69,7 @@ See `requirements.txt` for full list. Main dependencies:
 
 ## 🏗️ Architecture
 ```
-web_app.py (UI) → agent.py (Logic) → vector_store.py (Search)
+app.py (UI) → agent.py (Logic) → vector_store.py (Search)
                                     → hybrid_processor.py (OCR)
 ```
 
