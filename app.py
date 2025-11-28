@@ -292,8 +292,8 @@ def clear_input():
 with st.sidebar:
     # Display logo
     SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-    logo_path = os.path.join(SCRIPT_DIR, "images", "3T_AnimLogo_L.gif")
-    #logo_path = os.path.join(SCRIPT_DIR, "images", "3TinfoTinkerLogo.png")
+    #logo_path = os.path.join(SCRIPT_DIR, "images", "3T_AnimLogo_L.gif")
+    logo_path = os.path.join(SCRIPT_DIR, "images", "3TinfoTinkerLogo.png")
     
     if os.path.exists(logo_path):
         # New Eddition
