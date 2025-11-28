@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📚 3Ts AI Tutor - Personal Study Assistant
 
 AI-powered study assistant that helps students learn from their textbooks using RAG (Retrieval-Augmented Generation).
@@ -86,3 +87,19 @@ Powered by:
 - FAISS (Meta AI)
 - Sentence-Transformers
 - Streamlit
+=======
+---
+title: 3Ts Study Assistant
+emoji: 🐨
+colorFrom: gray
+colorTo: blue
+sdk: gradio
+sdk_version: 6.0.1
+app_file: app.py
+pinned: false
+license: apache-2.0
+short_description: AI-powered study assistant that helps students learn from th
+---
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+>>>>>>> a2d9549 (initial commit)
