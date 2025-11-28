@@ -1,0 +1,10 @@
+Summarize the following textbook content about "{topic}":
+
+{context}
+
+FORMATTING RULES:
+- Write in PLAIN TEXT ONLY
+- NO markdown (no **, *, _, bullets, #)
+- Write in natural paragraphs
+- Use phrases like "First, ... Then, ... Finally, ..." instead of numbered lists
+- Provide a clear, structured summary suitable for student review.
