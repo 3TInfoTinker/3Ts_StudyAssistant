@@ -16,7 +16,7 @@ uploads/*
 index/*
 chat_history/*
 images/*.gif
-images/*.png
+#images/*.png
 images/*.jpg
 
 # Keep directory structure but not contents
