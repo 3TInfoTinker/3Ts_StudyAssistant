@@ -83,7 +83,7 @@ def handle_quiz_action():
     col_btn1, col_btn2, col_btn3 = st.columns([1, 1, 3])
     
     with col_btn1:
-        if st.button("✅ Generate", use_container_width=True):
+        if st.button("✅ Generate", width='stretch'):
             if topic:
                 # Generate quiz
                 with st.spinner("Creating quiz..."):
@@ -114,7 +114,7 @@ def handle_quiz_action():
                 st.warning("⚠️ Please enter a topic!")
     
     with col_btn2:
-        if st.button("❌ Cancel", use_container_width=True):
+        if st.button("❌ Cancel", width='stretch'):
             if 'quick_action' in st.session_state:
                 del st.session_state.quick_action
             st.rerun()
@@ -133,7 +133,7 @@ def handle_summarize_action():
     col_btn1, col_btn2, col_btn3 = st.columns([1, 1, 3])
     
     with col_btn1:
-        if st.button("✅ Summarize", use_container_width=True):
+        if st.button("✅ Summarize", width='stretch'):
             if topic:
                 with st.spinner("Creating summary..."):
                     try:
@@ -163,7 +163,7 @@ def handle_summarize_action():
                 st.warning("⚠️ Please enter a topic!")
     
     with col_btn2:
-        if st.button("❌ Cancel", use_container_width=True, key="cancel_summary"):
+        if st.button("❌ Cancel", width='stretch', key="cancel_summary"):
             if 'quick_action' in st.session_state:
                 del st.session_state.quick_action
             st.rerun()
@@ -182,7 +182,7 @@ def handle_explain_action():
     col_btn1, col_btn2, col_btn3 = st.columns([1, 1, 3])
     
     with col_btn1:
-        if st.button("✅ Explain", use_container_width=True):
+        if st.button("✅ Explain", width='stretch'):
             if concept:
                 with st.spinner("Preparing explanation..."):
                     try:
@@ -212,7 +212,7 @@ def handle_explain_action():
                 st.warning("⚠️ Please enter a concept!")
     
     with col_btn2:
-        if st.button("❌ Cancel", use_container_width=True, key="cancel_explain"):
+        if st.button("❌ Cancel", width='stretch', key="cancel_explain"):
             if 'quick_action' in st.session_state:
                 del st.session_state.quick_action
             st.rerun()
@@ -232,7 +232,7 @@ def handle_ask_action():
     col_btn1, col_btn2, col_btn3 = st.columns([1, 1, 3])
     
     with col_btn1:
-        if st.button("✅ Ask", use_container_width=True):
+        if st.button("✅ Ask", width='stretch'):
             if question:
                 with st.spinner("Finding answer..."):
                     try:
@@ -262,7 +262,7 @@ def handle_ask_action():
                 st.warning("⚠️ Please enter a question!")
     
     with col_btn2:
-        if st.button("❌ Cancel", use_container_width=True, key="cancel_ask"):
+        if st.button("❌ Cancel", width='stretch', key="cancel_ask"):
             if 'quick_action' in st.session_state:
                 del st.session_state.quick_action
             st.rerun()
@@ -287,22 +287,22 @@ def render_sticky_buttons():
     col1, col2, col3, col4 = st.columns(4)
     
     with col1:
-        if st.button("📝 Generate Quiz", use_container_width=True, key="btn_quiz"):
+        if st.button("📝 Generate Quiz", width='stretch', key="btn_quiz"):
             st.session_state.quick_action = "quiz"
             st.rerun()
     
     with col2:
-        if st.button("📖 Summarize Topic", use_container_width=True, key="btn_summary"):
+        if st.button("📖 Summarize Topic", width='stretch', key="btn_summary"):
             st.session_state.quick_action = "summarize"
             st.rerun()
     
     with col3:
-        if st.button("💡 Explain Concept", use_container_width=True, key="btn_explain"):
+        if st.button("💡 Explain Concept", width='stretch', key="btn_explain"):
             st.session_state.quick_action = "explain"
             st.rerun()
     
     with col4:
-        if st.button("❓ Ask Question", use_container_width=True, key="btn_ask"):
+        if st.button("❓ Ask Question", width='stretch', key="btn_ask"):
             st.session_state.quick_action = "ask"
             st.rerun()
     

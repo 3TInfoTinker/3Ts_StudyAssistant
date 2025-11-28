@@ -299,7 +299,7 @@ with st.sidebar:
         # New Eddition
         col1, col2, col3 = st.columns([1, 3, 1])
         with col2:
-            st.image(logo_path, use_container_width=True)
+            st.image(logo_path, width='stretch') # For - use_container_width=True, use:- width='stretch'. For use_container_width=False, use:- width='content'`.
     else:
         st.warning("⚠️ Logo not found. Place it in: Tutor/images/3T_AnimLogo_L.gif")
     
