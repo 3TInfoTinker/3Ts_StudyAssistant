@@ -2,6 +2,8 @@
 
 AI-powered study assistant that helps students learn from their textbooks using RAG (Retrieval-Augmented Generation).
 
+Deployed on Streamlit: https://3tinfotinker-3ts-studyassistant-app-lxdxcx.streamlit.app/
+
 ## ✨ Features
 
 - 📤 Upload PDF or image-based textbooks
