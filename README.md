@@ -2,8 +2,8 @@
 
 AI-powered study assistant that helps students learn from their textbooks using RAG (Retrieval-Augmented Generation).
 
-Deployed on:
-Streamlit: https://3tinfotinker-3ts-studyassistant-app-pk.streamlit.app/
+Deployed on:<br>After deploying on HuggingFace got port's conflict. Therefore staying with HF<br>
+Streamlit URL not working: 3tinfotinker-3ts-studyassistant-app-pk.streamlit.app/<br>
 
 HuggingFace:https://huggingface.co/spaces/3T-InfoTinker/3Ts-Study-Assistant
 
