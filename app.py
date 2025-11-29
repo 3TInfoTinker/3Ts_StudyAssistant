@@ -11,7 +11,7 @@ from quick_actbtns import render_sticky_buttons, process_quick_action
 # ============================================================
 st.set_page_config(
     page_title="3Ts Tutor",
-    page_icon="📚",
+    page_icon="images/3Ts_Icon_512x512.icns",
     layout="wide",
     initial_sidebar_state="expanded"
 )
