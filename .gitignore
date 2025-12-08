@@ -11,6 +11,12 @@ __pycache__/
 venv/
 env/
 
+# Data files - generated at runtime, don't commit
+index/chunks.pkl
+index/metadata.pkl
+index/faiss.index
+chat_history/
+
 # Data directories (don't commit user data)
 books/*
 uploads/*
