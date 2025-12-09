@@ -4,6 +4,7 @@ from datetime import datetime
 import json
 from agent import Tutor
 from quick_actbtns import render_sticky_buttons, process_quick_action
+from record_manager import render_record_manager 
 
 
 # ============================================================
@@ -11,7 +12,7 @@ from quick_actbtns import render_sticky_buttons, process_quick_action
 # ============================================================
 st.set_page_config(
     page_title="3Ts Tutor",
-    page_icon="📚",
+    page_icon="images/3TinfotinkerIcon-multiLayer.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -299,7 +300,7 @@ with st.sidebar:
         # New Eddition
         col1, col2, col3 = st.columns([1, 3, 1])
         with col2:
-            st.image(logo_path, use_container_width=True)
+            st.image(logo_path, width='stretch') # For - use_container_width=True, use:- width='stretch'. For use_container_width=False, use:- width='content'`.
     else:
         st.warning("⚠️ Logo not found. Place it in: Tutor/images/3T_AnimLogo_L.gif")
     
@@ -376,7 +377,8 @@ with st.sidebar:
                     st.code(st.session_state.tutor.vector_store.chunks[0][:300])
         except:
             st.error("❌ No index found - please build first")
-    
+            
+    render_record_manager()
     st.markdown("---")
     st.markdown("### ℹ️ About")
     st.info("""
