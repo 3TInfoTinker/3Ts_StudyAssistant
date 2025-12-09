@@ -5,6 +5,7 @@ import json
 from agent import Tutor
 from quick_actbtns import render_sticky_buttons, process_quick_action
 from record_manager import render_record_manager 
+from record_manager import render_record_manager 
 
 
 # ============================================================
@@ -12,6 +13,8 @@ from record_manager import render_record_manager
 # ============================================================
 st.set_page_config(
     page_title="3Ts Study Assistant",
+    page_icon="images/3TinfotinkerIcon-multiLayer.png",
+    page_title="3Ts Tutor",
     page_icon="images/3TinfotinkerIcon-multiLayer.png",
     layout="wide",
     initial_sidebar_state="expanded"
