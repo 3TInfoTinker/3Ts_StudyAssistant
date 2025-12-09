@@ -4,6 +4,7 @@ from datetime import datetime
 import json
 from agent import Tutor
 from quick_actbtns import render_sticky_buttons, process_quick_action
+from record_manager import render_record_manager 
 
 
 # ============================================================
@@ -376,7 +377,8 @@ with st.sidebar:
                     st.code(st.session_state.tutor.vector_store.chunks[0][:300])
         except:
             st.error("❌ No index found - please build first")
-    
+            
+    render_record_manager()
     st.markdown("---")
     st.markdown("### ℹ️ About")
     st.info("""
