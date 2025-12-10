@@ -15,7 +15,7 @@ st.set_page_config(
     page_title="3Ts Study Assistant",
     page_icon="images/3TinfotinkerIcon-multiLayer.png",
     page_title="3Ts Tutor",
-    page_icon="images/3TinfotinkerIcon-multiLayer.png",
+    page_icon="images/3TinfoTinkerLogo.png",
     layout="wide",
     initial_sidebar_state="expanded"
 )
