@@ -30,6 +30,17 @@ images/*.jpg
 # Environment variables
 .env
 
+# PyInstaller output folders
+build/
+dist/
+
+# PyInstaller spec files
+*.spec
+
+# Icons created during build
+*.ico
+*.icns
+
 # IDE
 .vscode/
 .idea/
