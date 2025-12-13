@@ -1,4 +1,4 @@
-# 📚 3Ts AI Tutor - Personal Study Assistant
+# 📚 3Ts Study Assistant - Personal AI Study Assistant
 
 AI-powered study assistant that helps students learn from their textbooks using RAG (Retrieval-Augmented Generation).
 
@@ -15,6 +15,7 @@ HuggingFace:https://huggingface.co/spaces/3T-InfoTinker/3Ts-Study-Assistant
 - 📖 Summarize topics/chapters
 - 💡 Explain concepts simply
 - 💾 Persistent chat history
+- 📦 Record Manager-Storage & Data
 - 🎨 Dark mode UI
 - video demo: https://youtu.be/QCcdvMNnWBc?si=t3Dl3utKpbOxpYKv
 
@@ -86,3 +87,4 @@ Powered by:
 - FAISS (Meta AI)
 - Sentence-Transformers
 - Streamlit
+- HuggingFace
