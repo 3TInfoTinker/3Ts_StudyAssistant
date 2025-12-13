@@ -1,5 +1,3 @@
-# Create .gitignore to exclude unnecessary files
-cat > .gitignore << 'EOF'
 # Python
 __pycache__/
 *.py[cod]
@@ -54,4 +52,4 @@ dist/
 # OS
 .DS_Store
 Thumbs.db
-EOF
+
