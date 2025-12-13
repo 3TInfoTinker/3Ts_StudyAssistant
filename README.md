@@ -1,4 +1,4 @@
-# 📚 3Ts AI Tutor - Personal Study Assistant
+# 📚 3Ts Study Assistant - Personal AI Study Assistant
 
 AI-powered study assistant that helps students learn from their textbooks using RAG (Retrieval-Augmented Generation).
 
@@ -12,6 +12,7 @@ Deployed on Streamlit: https://3tinfotinker-3ts-studyassistant-app-lxdxcx.stream
 - 📖 Summarize topics/chapters
 - 💡 Explain concepts simply
 - 💾 Persistent chat history
+- 📒 Record Management - Storage & Data
 - 🎨 Dark mode UI
 - video demo: https://youtu.be/QCcdvMNnWBc?si=t3Dl3utKpbOxpYKv
 
@@ -83,3 +84,4 @@ Powered by:
 - FAISS (Meta AI)
 - Sentence-Transformers
 - Streamlit
+- HuggingFace
