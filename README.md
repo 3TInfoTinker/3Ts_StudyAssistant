@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 📚 3Ts Study Assistant - Personal AI Study Assistant
 
 AI-powered study assistant that helps students learn from their textbooks using RAG (Retrieval-Augmented Generation).
@@ -85,3 +86,14 @@ Powered by:
 - Sentence-Transformers
 - Streamlit
 - HuggingFace
+=======
+---
+title: 3Ts Study Assistant
+emoji: 🤖
+colorFrom: indigo
+colorTo: blue
+sdk: streamlit
+app_file: app.py
+pinned: false
+---
+>>>>>>> f90be87350c6c578659c9634392e374f03ba61f6

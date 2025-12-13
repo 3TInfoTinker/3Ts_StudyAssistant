@@ -5,15 +5,12 @@ import json
 from agent import Tutor
 from quick_actbtns import render_sticky_buttons, process_quick_action
 from record_manager import render_record_manager 
-from record_manager import render_record_manager 
 
 
 # ============================================================
 #                     PAGE CONFIG
 # ============================================================
 st.set_page_config(
-    page_title="3Ts Study Assistant",
-    page_icon="images/3TinfotinkerIcon-multiLayer.png",
     page_title="3Ts Tutor",
     page_icon="images/3TinfoTinkerLogo.png",
     layout="wide",
@@ -334,7 +331,6 @@ with st.sidebar:
                             f.write(uploaded_file.getbuffer())
                     
                     st.info("📖 Extracting text from books...")
-
                     # Build knowledge base
                     st.session_state.tutor.build_knowledge_base(UPLOAD_DIR)
                     st.success("✅ Books processed successfully!")
@@ -400,7 +396,7 @@ with st.sidebar:
 # ============================================================
 #                      MAIN CONTENT
 # ============================================================
-st.markdown('<h1 class="main-header">📚 3Ts Study Assistant - Your Personal Study Assistant</h1>', 
+st.markdown('<h1 class="main-header">📚 3Ts Tutor - Your Personal Study Assistant</h1>', 
             unsafe_allow_html=True)
 
 render_sticky_buttons()
@@ -432,7 +428,7 @@ with chat_container:
 
 # Chat input
 st.markdown("---")
-st.markdown("### 💬 Ask me anything from the book!")
+st.markdown("### 💬 Ask me anything!")
 
 user_input = st.text_input(
     "Type your question here...",
