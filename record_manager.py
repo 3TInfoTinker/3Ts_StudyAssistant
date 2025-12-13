@@ -91,7 +91,7 @@ def render_record_manager():
     Call this from web_app.py sidebar
     """
     st.markdown("---")
-    st.markdown("### 🗑️ Record Management")
+    st.markdown("### 🗃 Record Management")
     
     # Get current storage info
     info = get_storage_info()
