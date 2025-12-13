@@ -383,7 +383,7 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("### ℹ️ About")
     st.info("""
-    **3Ts Tutor v1.0**
+    **3Ts Study Assistant v1.0**
     
     AI-powered Study Assistant.
     
@@ -392,6 +392,7 @@ with st.sidebar:
     - 📝 Quiz generation
     - 📖 Topic summaries
     - 🎯 Concept explanations
+    - 🗃 Record Manager
     """)
 
 # ============================================================
