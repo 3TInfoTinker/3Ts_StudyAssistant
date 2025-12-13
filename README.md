@@ -15,7 +15,7 @@ HuggingFace:https://huggingface.co/spaces/3T-InfoTinker/3Ts-Study-Assistant
 - 📖 Summarize topics/chapters
 - 💡 Explain concepts simply
 - 💾 Persistent chat history
-- 📦 Record Manager-Storage & Data
+- 🗃 Record Manager-Storage & Data
 - 🎨 Dark mode UI
 - video demo: https://youtu.be/QCcdvMNnWBc?si=t3Dl3utKpbOxpYKv
 
