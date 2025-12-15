@@ -47,7 +47,7 @@ echo "GOOGLE_API_KEY=your_api_key_here" > .env
 
 4. Run the app:
 ```bash
-streamlit run web_app.py
+streamlit run app.py
 ```
 
 ## 📋 Requirements
